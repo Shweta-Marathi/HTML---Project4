@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+<body>
+    <h1>TAP COURSE FORM</h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="">
+        <table>
+            <tr>
+                <td><label for=""> First Name</label></td>
+                <td><input type="text" placeholder="Shweta R" required maxlength="15"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="">Surname</label></td>
+                <td><input type="text" placeholder="Marathi" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Mobile Number</label></td>
+                <td><input type="tel" placeholder="9480529741" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" placeholder="shashi@gmail.com" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" placeholder="s@2004" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Confirm Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Date of birth</label></td>
+                <td><input type="date" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input type="number" min="18" max="60"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <input type="radio" name="Gender" value="Male"> <label for="">Male</label>
+                    <input type="radio" name="Gender" value="Female"> <label for="">Female</label>
+                    <input type="radio" name="Gender" value="Others">  <label for="">Others</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Select Country</label></td>
+                <td><select name="Country" id="Country">
+                    <option value="None">None</option>
+                    <option value="India">India</option>
+                    <option value="Shreelanka">Shreelanka</option>
+                    <option value="Maldivs">Maldivs</option>
+                    <option value="China">China</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Upload Picture</label></td>
+                <td><input type="file" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Age Range</label></td>
+                <td><input type="range" min="18" max="60"></td>
+            </tr>
+
+            <tr>
+                <td><button>Submit Form</button></td>
+            </tr>
+        </table>
+        </form>
+    </fieldset>
+
+       <fieldset>
+        <legend>Course Details</legend>
+         <form action="">
+        <table>
+            <tr>
+                <td><label for="">Select Course</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Java Course</option>
+                        <option value="">Python Course</option>
+                        <option value="">Java & Python Course</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="">Delivery Mode</label></td>
+                <td>
+                    <input type="checkbox" name="course" value="Java" id="Java"><label for="Java">Java</label>
+                    <input type="checkbox" name="course" value="Python" id="Python"> <label for="Python">Python</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Comments</label></td>
+                <td><textarea placeholder="Java FullStack Course will helpfull for your future." id=""></textarea></td>
+            </tr>
+        </table>
+        </form>
+
+       </fieldset>
+    
+</body>
+</html>
